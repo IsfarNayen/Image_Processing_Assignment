@@ -11,6 +11,7 @@ This repository contains an image processing notebook designed for Kaggle. The n
 <h2>Steps</h2>
 
 - **Install Dependencies**
+
     Kaggle notebooks come pre-installed with necessary libraries, but if running locally, install them using:
     ```python
     pip install opencv-python pillow matplotlib
