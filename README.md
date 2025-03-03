@@ -7,6 +7,14 @@ This repository contains an image processing notebook designed for Kaggle. The n
 - Convert images to black and white (grayscale)
 - Save processed images in the Kaggle working directory
 
+<h2>Prerequisites:</h2>
+
+- Matplotlib
+    - image - For Loading image
+    - pyplot - For visualizing image and dimensions of the image
+- Pillow - For resizing
+- OpenCV - For converting RGB image to Greyscale image
+
 <h2>Steps</h2>
 
 - **Install Dependencies**
@@ -81,3 +89,14 @@ matplotlib.pyplot.imshow(img)
     img = mpimg.imread('/kaggle/working/dog_BlackandWhite.jpg')
     plot = plt.imshow(img)
     ```
+
+<h2>My Contributions:</h2>
+
+I have implemented the image processing workflow in Kaggle using an alternative approach. Specifically:
+
+- Loading Image from Pillow: Instead of OpenCV, I used Pillow to handle image operations effectively.
+- Alternative Processing Flow: The grayscale conversion and saving operations were performed using Pillow instead of OpenCV, providing another method for image manipulation.
+- Code Optimization: Ensured efficient execution by structuring the code in a way that enhances clarity and performance.
+
+<h2>Author</h2>
+- Github: [IsfarNayen](https://github.com/IsfarNayen)
