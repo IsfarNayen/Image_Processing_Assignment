@@ -67,17 +67,17 @@ matplotlib.pyplot.imshow(img)
 
 - **Grayscale image shown by OpneCV**
 
-B&W image was supposed to load by cv2.imshow('B&W_img'), but in google colab or kaggle, this function don't work. So alternative 2 ways are shown below:
+    B&W image was supposed to load by cv2.imshow('B&W_img'), but in google colab or kaggle, this function don't work. So alternative 2 ways are shown below:
 
- - Way 1(More efficient and found in internet):
- ```python
-from google.colab.patches import cv2_imshow
-cv2_imshow(bw_img) #showing image by cv2
-```
-- Way 2(My created way from Pillow by saving):
-```python
-img = Image.fromarray(bw_img)
-img.save('dog_BlackandWhite.jpg')
-img = mpimg.imread('/kaggle/working/dog_BlackandWhite.jpg')
-plot = plt.imshow(img)
-```
+    - Way 1(More efficient and found in internet):
+    ```python
+    from google.colab.patches import cv2_imshow
+    cv2_imshow(bw_img) #showing image by cv2
+    ```
+    - Way 2(My created way from Pillow by saving):
+    ```python
+    img = Image.fromarray(bw_img)
+    img.save('dog_BlackandWhite.jpg')
+    img = mpimg.imread('/kaggle/working/dog_BlackandWhite.jpg')
+    plot = plt.imshow(img)
+    ```
