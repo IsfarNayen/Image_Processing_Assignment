@@ -99,4 +99,5 @@ I have implemented the image processing workflow in Kaggle using an alternative 
 - Code Optimization: Ensured efficient execution by structuring the code in a way that enhances clarity and performance.
 
 <h2>Author</h2>
+
 - Github: [IsfarNayen](https://github.com/IsfarNayen)
