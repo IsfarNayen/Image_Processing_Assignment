@@ -25,53 +25,53 @@ This repository contains an image processing notebook designed for Kaggle. The n
     ```
 - **Clone the Repository**
   ```python
-    git clone https://github.com/yourusername/image-processing-kaggle.git
-    cd image-processing-kaggle
+git clone https://github.com/yourusername/image-processing-kaggle.git
+cd image-processing-kaggle
   ```
 
 - **Run the Notebook**
     - Upload the notebook to Kaggle Notebooks and run it.
     - Alternatively, run locally using Jupyter:
     ```python
-        jupyter notebook image-processing-kaggle.ipynb
+    jupyter notebook image-processing-kaggle.ipynb
     ```
 
 <h2>Some Important parts in the code:</h2>
 
 - **Load Image by matplotlib.image:**
-```python
-img = mpimg.imread("/kaggle/working/understanding-your-dog-s-body-language.jpg")
-```
+    ```python
+    img = mpimg.imread("/kaggle/working/understanding-your-dog-s-body-language.jpg")
+    ```
 - **Display Image by matplotlib.pyplot:**
-```python
-matplotlib.pyplot.imshow(img)
-```
+    ```python
+    matplotlib.pyplot.imshow(img)
+    ```
 - **Resize by Pillow:**
-```python
-from PIL import Image
-dog_image = Image.open("/kaggle/working/understanding-your-dog-s-body-language.jpg")
-resized_image = dog_image.resize((200 , 200))
-```
+    ```python
+    from PIL import Image
+    dog_image = Image.open("/kaggle/working/understanding-your-dog-s-body-language.jpg")
+    resized_image = dog_image.resize((200 , 200))
+    ```
 - **Saving Image by Pillow**
-```python
-resized_image.save('New_resized_image_to_200*200*3.jpg')
-```
+    ```python
+    resized_image.save('New_resized_image_to_200*200*3.jpg')
+    ```
 
 - **Checking Dimensions and Plotting:**
 
-Saving in the previous part is done for plotting by matplotlib.pyplot.
-```python
-img = mpimg.imread('/kaggle/working/New_resized_image_to_200*200*3.jpg')
-img.shape
-matplotlib.pyplot.imshow(img)
-```
+    Saving in the previous part is done for plotting by matplotlib.pyplot.
+    ```python
+    img = mpimg.imread('/kaggle/working/New_resized_image_to_200*200*3.jpg')
+    img.shape
+    matplotlib.pyplot.imshow(img)
+    ```
 
 - **Converting RGB to Grayscale by OpenCV or cv2 library**
-```python
+    ```python
     import cv2
     img = cv2.imread(pic)
     B&W_img = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
-```
+    ```
 
 - **Grayscale image shown by OpneCV**
 
