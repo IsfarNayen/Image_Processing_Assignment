@@ -88,6 +88,9 @@ img.save('dog_BlackandWhite.jpg')
 img = mpimg.imread('/kaggle/working/dog_BlackandWhite.jpg')
 plot = plt.imshow(img)
 ```
+<br>
+    <img src="assets/B&W_shrinked(My_way).png" alt="B&W_img" width="800">
+<br>
 
 <h2>My Contributions:</h2>
 
