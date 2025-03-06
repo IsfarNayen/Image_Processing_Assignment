@@ -46,9 +46,11 @@ img = mpimg.imread("/kaggle/working/understanding-your-dog-s-body-language.jpg")
 ```python
 matplotlib.pyplot.imshow(img)
 ```
+
 <br>
     <img src="assets/coloured.png" alt="B&W_img" width=auto>
 <br>
+
 - **Resize by Pillow:**
 ```python
 from PIL import Image
@@ -88,6 +90,7 @@ B&W image was supposed to load by cv2.imshow('B&W_img'), but in google colab or 
 from google.colab.patches import cv2_imshow
 cv2_imshow(bw_img) #showing image by cv2
 ```
+
 <br>
     <img src="assets/B&W_shrinked.png" alt="B&W_img" width=auto>
 <br>
