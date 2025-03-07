@@ -25,7 +25,7 @@ This repository contains an image processing notebook designed for Kaggle. The n
     ```
 - **Clone the Repository**
     ```python
-    git clone https://github.com/yourusername/image-processing-kaggle.git
+    git clone https://github.com/IsfarNayen/image-processing-kaggle.git
     cd image-processing-kaggle
     ```
 
@@ -33,7 +33,7 @@ This repository contains an image processing notebook designed for Kaggle. The n
     - Upload the notebook to Kaggle Notebooks and run it.
     - Alternatively, run locally using Jupyter:
     ```python
-        jupyter notebook image-processing-kaggle.ipynb
+    jupyter notebook image-processing-kaggle.ipynb
     ```
 
 <h2>Some Important parts in the code:</h2>
